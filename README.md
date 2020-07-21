@@ -1,1 +1,0 @@
-# Levigo-Research
