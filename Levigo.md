@@ -39,4 +39,4 @@ Comes with an application that helps in recording scripts directly from a mobile
 ### Kobitan
 Kobiton provides access to devices for running manual and automated test. 
 This mobile device cloud platform is built on top of the Appium open-source framework and could be used to test across devices without script modifications.
-The main feature of the tool includes commands, screenshots, faster identification, and automatically generated activity logs
+The main feature of the tool includes commands, screenshots, faster identification, and automatically generated activity logs 
