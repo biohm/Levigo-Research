@@ -1,4 +1,6 @@
 # Levigo-Research
+## Barcode
+
 ## CI/CD
 https://semaphoreci.com/blog/cicd-pipeline
 
