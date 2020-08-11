@@ -11,6 +11,15 @@ By using a barcode scanning app, you will receive instant control over critical 
 Since a barcode inventory app sends data to the primary system, you have real-time information on product shipping and inventory.
 An inventory barcode scanner app ensures greater inventory counting accuracy while eliminating the human factor.
 ### Firebase ML kit Barcode Scanning API for Android apps
+Can empower your app with the ability to read data encoded using most standard barcode formats. 
+Firebase ML kit API has integrated automatic barcode format detection, so the user does not need to specify the format of the barcode. 
+The API supports the most common barcode formats: Codabar, Code 39, Code 93, Code 128, EAN-8, EAN-13, ITF, UPC-A, UPC-E, 2D formats: Aztec, Data Matrix, PDF417, QR Code.
+### Scandit Barcode Scanner SDK for iOS and Android
+This barcode scanner SDK for Android and iOS allows scanning barcodes in  bad light, with damaged labels, unusual barcodes, and with all mobile device types in less than a second.
+You can use this Barcode Scanner SDK for capturing labels, documents, machine-readable zones, and more around the barcode. 
+Scandit barcode scanning system supports the most common 1D and 2D barcode formats, including QR Codes, PDF417, Aztec, Code-128, Data Matrix, as well as many others.
+### Cognex Mobile Barcode SDK for both OS platforms
+
 ## CI/CD
 https://semaphoreci.com/blog/cicd-pipeline
 
