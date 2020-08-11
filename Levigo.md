@@ -1,6 +1,16 @@
 # Levigo-Research
 ## Barcode
+https://theappsolutions.com/blog/development/barcode-scanning-app/
 
+A lack of transparency in inventory management may result in loss of customer trust due to the long shipping period, unexpected costs caused by overstocking, and inability to forecast how many products you should order next time.
+To make inventory management even more effective and convenient for your workers, consider barcode scanner app development. 
+### Benefits
+The barcode scanning app for inventory uses the native mobile device camera to read the barcode, and then transfers the data to your local database or ERP system.
+A barcode scanning app allows users to perform all the operations without connecting to the internet to upload information to a server.
+By using a barcode scanning app, you will receive instant control over critical information in your inventory. Thus, your inventory management system becomes more transparent and effective. 
+Since a barcode inventory app sends data to the primary system, you have real-time information on product shipping and inventory.
+An inventory barcode scanner app ensures greater inventory counting accuracy while eliminating the human factor.
+### Firebase ML kit Barcode Scanning API for Android apps
 ## CI/CD
 https://semaphoreci.com/blog/cicd-pipeline
 
