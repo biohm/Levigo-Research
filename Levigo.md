@@ -34,7 +34,18 @@ Add the button text string to your "res/values/strings" XML file
 ZXing is an open source library that provides access to tested and functional barcode scanning on Android. Many users will already have the app installed on their devices, so you can simply launch the scanning Intents and retrieve the results.In Eclipse, add a new package to your project by right-clicking the "src" folder and choosing "New", then "Package", and entering "com.google.zxing.integration.android" as the package name.
 Right-click your new package, choose "New" then "Class" and enter "IntentIntegrator" as the class name. You can leave the other default settings the way they are. Once you've created this class, do the same for the other class we'll be importing, giving it "IntentResult" as its class name.
 Copy the code from both classes in the ZXing library and paste it into the class files you created. These are IntentIntegrator and IntentResult. 
-You can now import the ZXing classes into your main Activity class
+You can now import the ZXing classes into your main Activity class.
+#### Scanning
+Implement scanning when the user clicks the button we added.
+In onCreate, after the existing code, instantiate these variables using the ID values we specified in the XML.
+Add an onClick method to your activity class.
+Create an instance of the Intent Integrator class we imported.
+Call on the Intent Integrator method to start scanning
+#### Retrieving Scanning Results
+When the user clicks the scan button, the barcode scanner will launch. When they scan a barcode, it will return the scanned data to the onActivityResult method of the calling activity. Add the method to your main activity class.
+As with any data being retrieved from another app, it's vital to check for null values. Only proceed if we have a valid result
+The Intent Result object provides methods to retrieve the content of the scan and the format of the data returned from it. Retrieve the content as a string value.
+For the purpose of this tutorial, we'll just write the values to the Text Views in our layout
 
 ## CI/CD
 https://semaphoreci.com/blog/cicd-pipeline
