@@ -1,5 +1,5 @@
 # Levigo-Research
-## Barcode
+## Barcodes
 https://theappsolutions.com/blog/development/barcode-scanning-app/
 
 A lack of transparency in inventory management may result in loss of customer trust due to the long shipping period, unexpected costs caused by overstocking, and inability to forecast how many products you should order next time.
@@ -19,6 +19,22 @@ This barcode scanner SDK for Android and iOS allows scanning barcodes in  bad li
 You can use this Barcode Scanner SDK for capturing labels, documents, machine-readable zones, and more around the barcode. 
 Scandit barcode scanning system supports the most common 1D and 2D barcode formats, including QR Codes, PDF417, Aztec, Code-128, Data Matrix, as well as many others.
 ### Cognex Mobile Barcode SDK for both OS platforms
+You can use this SDK to develop a mobile app with barcode integration for different industries, including logistics, manufacturing, healthcare, and commercial services.
+This SDK for barcode inventory management allows scanning damaged codes, using the app in challenging lighting conditions or harsh environments, and also supports bunch scanning.
+The SDK reads the following barcode formats: EAN, GS1 DataBar, MaxiCode, MSI Plessey, PDF417, UPC, and others.
+
+### Android SDK: Create a Barcode Reader
+https://code.tutsplus.com/tutorials/android-sdk-create-a-barcode-reader--mobile-17162
+
+Use the ZXing (Zebra Crossing) library to carry out barcode scanning within an Android app.
+Open your main layout file. With the default settings, Eclipse starts your layout with a Relative Layout object, which you can leave as is. Inside of it, replace the existing content (typically a Text View) with a button.
+After the button, add two Text Views in which we will output scanning information
+Add the button text string to your "res/values/strings" XML file
+#### Add ZXing to Your Project
+ZXing is an open source library that provides access to tested and functional barcode scanning on Android. Many users will already have the app installed on their devices, so you can simply launch the scanning Intents and retrieve the results.In Eclipse, add a new package to your project by right-clicking the "src" folder and choosing "New", then "Package", and entering "com.google.zxing.integration.android" as the package name.
+Right-click your new package, choose "New" then "Class" and enter "IntentIntegrator" as the class name. You can leave the other default settings the way they are. Once you've created this class, do the same for the other class we'll be importing, giving it "IntentResult" as its class name.
+Copy the code from both classes in the ZXing library and paste it into the class files you created. These are IntentIntegrator and IntentResult. 
+You can now import the ZXing classes into your main Activity class
 
 ## CI/CD
 https://semaphoreci.com/blog/cicd-pipeline
